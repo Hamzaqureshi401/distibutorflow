@@ -1,0 +1,14 @@
+[10-Mar-2022 17:46:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant 'App\Http\Middleware\HttpsProtocol' in /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:921
+Stack trace:
+#0 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(921): ReflectionClass->newInstanceArgs(Array)
+#1 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Founda in /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 921
+[10-Mar-2022 17:46:45 UTC] PHP Fatal error:  Uncaught Error: Undefined constant 'App\Http\Middleware\HttpsProtocol' in /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:921
+Stack trace:
+#0 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(921): ReflectionClass->newInstanceArgs(Array)
+#1 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Founda in /home/soloshub/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 921
